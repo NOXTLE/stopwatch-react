@@ -1,0 +1,21 @@
+@import "tailwindcss";
+.scroll::-webkit-scrollbar{
+ 
+  
+  height: 0px;
+}
+.scroll::-webkit-scrollbar-thumb{
+ 
+  cursor: pointer;
+}
+
+.clock{
+  box-shadow: 2px 2px 20px rgb(23, 4, 44);
+}
+.active{
+  border:2px solid white;
+  color:white;
+ 
+
+  border-radius: 10px;
+}
